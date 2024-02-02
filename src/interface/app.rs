@@ -152,12 +152,12 @@ impl<'a> App<'a> {
                     .title(search_bar_title)
                     .borders(Borders::ALL)
                     .border_style(Style::default().fg(if self.focus == Focus::SearchBar {
-                        Color::LightRed
+                        Color::Blue
                     } else {
-                        Color::White
+                        Color::Black
                     })),
             )
-            .style(Style::default().fg(Color::White).bg(Color::Reset))
+            .style(Style::default().fg(Color::Black).bg(Color::Reset))
             .alignment(Alignment::Center)
             .wrap(Wrap { trim: true });
 
@@ -171,7 +171,7 @@ impl<'a> App<'a> {
             .gauge_style(
                 Style::default()
                     .bg(Color::White)
-                    .fg(Color::DarkGray)
+                    .fg(Color::Blue)
                     .add_modifier(Modifier::BOLD),
             )
             .percent(self.progress)
