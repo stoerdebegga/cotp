@@ -1,9 +1,10 @@
-# [1.2.0](https://github.com/stoerdebegga/cotp/compare/v1.1.0...v1.2.0) (2024-05-03)
+## [1.6.1](https://github.com/replydev/cotp/compare/v1.6.0...v1.6.1) (2024-05-05)
 
 
-### Features
+### Bug Fixes
 
-* implement otp uri copying from QRCode page ([1120f07](https://github.com/stoerdebegga/cotp/commit/1120f070b09ea2ac6e86b9507714b881c768ac53))
+* Misc OTP Uri import changes ([#425](https://github.com/replydev/cotp/issues/425)) ([cbe2c72](https://github.com/replydev/cotp/commit/cbe2c72720c97e53426aba6d8e2cf94abec7af18))
+* show useful errors when import file parsing fails ([81ffa60](https://github.com/replydev/cotp/commit/81ffa606733a24e1cf060cace938adad7758bdbe))
 
 # [1.6.0](https://github.com/replydev/cotp/compare/v1.5.0...v1.6.0) (2024-05-02)
 
