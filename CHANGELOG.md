@@ -1,10 +1,11 @@
-## [1.2.1](https://github.com/stoerdebegga/cotp/compare/v1.2.0...v1.2.1) (2024-05-08)
+# [1.7.0](https://github.com/replydev/cotp/compare/v1.6.1...v1.7.0) (2024-05-09)
 
 
-### Bug Fixes
+### Features
 
-* Misc OTP Uri import changes ([#425](https://github.com/stoerdebegga/cotp/issues/425)) ([cbe2c72](https://github.com/stoerdebegga/cotp/commit/cbe2c72720c97e53426aba6d8e2cf94abec7af18))
-* show useful errors when import file parsing fails ([81ffa60](https://github.com/stoerdebegga/cotp/commit/81ffa606733a24e1cf060cace938adad7758bdbe))
+* add new List subcommand ([35673f2](https://github.com/replydev/cotp/commit/35673f2182152fc8384674070ed1c87fab288081))
+* first draft implementation of List subcommand ([432f428](https://github.com/replydev/cotp/commit/432f42883f5627d46284141f0077b7474d6f92d1))
+* implement json list output ([163b839](https://github.com/replydev/cotp/commit/163b83951c5a766e005106b684ccfc3d285c384c))
 
 ## [1.6.1](https://github.com/replydev/cotp/compare/v1.6.0...v1.6.1) (2024-05-05)
 
