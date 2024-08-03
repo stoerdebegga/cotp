@@ -1,3 +1,18 @@
+# [1.4.0](https://github.com/stoerdebegga/cotp/compare/v1.3.2...v1.4.0) (2024-08-03)
+
+
+### Bug Fixes
+
+* optimize table width on list subcommand ([c182195](https://github.com/stoerdebegga/cotp/commit/c1821958c92dbd084a4e25dcc358b32dacbab8b9))
+* parse user import correctly in delete subcommand ([8ed354f](https://github.com/stoerdebegga/cotp/commit/8ed354f8df90e63494594e66f05afa4d27226f22))
+* start code index at one as done in dashboard and in edit subcommand ([c90e910](https://github.com/stoerdebegga/cotp/commit/c90e910ee6b98529efa5d4beae0a3579a95a9122))
+* start code index from one as done in dashboard and in edit subcommand ([#458](https://github.com/stoerdebegga/cotp/issues/458)) ([6a36c8d](https://github.com/stoerdebegga/cotp/commit/6a36c8def24a36ccc5416ebe0d3063f7e888e5cf)), closes [#457](https://github.com/stoerdebegga/cotp/issues/457)
+
+
+### Features
+
+* implement delete subcommand ([4d74db8](https://github.com/stoerdebegga/cotp/commit/4d74db8eed0f04c3f8788fe550a93d14e212d9f0))
+
 # [1.8.0](https://github.com/replydev/cotp/compare/v1.7.3...v1.8.0) (2024-07-29)
 
 
