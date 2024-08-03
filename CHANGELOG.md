@@ -1,10 +1,23 @@
-## [1.3.2](https://github.com/stoerdebegga/cotp/compare/v1.3.1...v1.3.2) (2024-07-11)
+# [1.8.0](https://github.com/replydev/cotp/compare/v1.7.3...v1.8.0) (2024-07-29)
 
 
 ### Bug Fixes
 
-* manipulate secret case by otp_type ([1bcfb17](https://github.com/stoerdebegga/cotp/commit/1bcfb172c32bfeacb1b1eabe45f10474fe67866c))
-* use builder pattern to build and validate OTPElement ([75242c3](https://github.com/stoerdebegga/cotp/commit/75242c3dd6cddd9e95fdce4ab0016fdec2ae73d3))
+* parse user import correctly in delete subcommand ([8ed354f](https://github.com/replydev/cotp/commit/8ed354f8df90e63494594e66f05afa4d27226f22))
+
+
+### Features
+
+* implement delete subcommand ([4d74db8](https://github.com/replydev/cotp/commit/4d74db8eed0f04c3f8788fe550a93d14e212d9f0))
+
+## [1.7.3](https://github.com/replydev/cotp/compare/v1.7.2...v1.7.3) (2024-07-24)
+
+
+### Bug Fixes
+
+* optimize table width on list subcommand ([c182195](https://github.com/replydev/cotp/commit/c1821958c92dbd084a4e25dcc358b32dacbab8b9))
+* start code index at one as done in dashboard and in edit subcommand ([c90e910](https://github.com/replydev/cotp/commit/c90e910ee6b98529efa5d4beae0a3579a95a9122))
+* start code index from one as done in dashboard and in edit subcommand ([#458](https://github.com/replydev/cotp/issues/458)) ([6a36c8d](https://github.com/replydev/cotp/commit/6a36c8def24a36ccc5416ebe0d3063f7e888e5cf)), closes [#457](https://github.com/replydev/cotp/issues/457)
 
 ## [1.7.2](https://github.com/replydev/cotp/compare/v1.7.1...v1.7.2) (2024-07-08)
 
