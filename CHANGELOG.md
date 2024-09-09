@@ -1,17 +1,16 @@
-# [1.4.0](https://github.com/stoerdebegga/cotp/compare/v1.3.2...v1.4.0) (2024-08-03)
-
-
-### Bug Fixes
-
-* optimize table width on list subcommand ([c182195](https://github.com/stoerdebegga/cotp/commit/c1821958c92dbd084a4e25dcc358b32dacbab8b9))
-* parse user import correctly in delete subcommand ([8ed354f](https://github.com/stoerdebegga/cotp/commit/8ed354f8df90e63494594e66f05afa4d27226f22))
-* start code index at one as done in dashboard and in edit subcommand ([c90e910](https://github.com/stoerdebegga/cotp/commit/c90e910ee6b98529efa5d4beae0a3579a95a9122))
-* start code index from one as done in dashboard and in edit subcommand ([#458](https://github.com/stoerdebegga/cotp/issues/458)) ([6a36c8d](https://github.com/stoerdebegga/cotp/commit/6a36c8def24a36ccc5416ebe0d3063f7e888e5cf)), closes [#457](https://github.com/stoerdebegga/cotp/issues/457)
+# [1.9.0](https://github.com/replydev/cotp/compare/v1.8.0...v1.9.0) (2024-08-31)
 
 
 ### Features
 
-* implement delete subcommand ([4d74db8](https://github.com/stoerdebegga/cotp/commit/4d74db8eed0f04c3f8788fe550a93d14e212d9f0))
+* add --database-path argument ([9fafde3](https://github.com/replydev/cotp/commit/9fafde3769b6fe87f4fb8ed39439d86a074c173b))
+* add --database-path argument ([#485](https://github.com/replydev/cotp/issues/485)) ([e32600c](https://github.com/replydev/cotp/commit/e32600c5a693a8cfd4887c052bd2aace32c94c46))
+* use new argument to be able to set database path by commandline ([effd184](https://github.com/replydev/cotp/commit/effd1848295e43426c715c3f2cb3b275a6015d88))
+
+
+### Performance Improvements
+
+* resolve clippy lints ([565d452](https://github.com/replydev/cotp/commit/565d4520ede6a5d9053445380f6a8079e0419f6c))
 
 # [1.8.0](https://github.com/replydev/cotp/compare/v1.7.3...v1.8.0) (2024-07-29)
 
