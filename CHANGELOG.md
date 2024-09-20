@@ -1,3 +1,10 @@
+## [1.5.1](https://github.com/stoerdebegga/cotp/compare/v1.5.0...v1.5.1) (2024-09-20)
+
+
+### Bug Fixes
+
+* prompt for save if user modifies the HOTP counter ([8568771](https://github.com/stoerdebegga/cotp/commit/8568771c91d5c45df2e68f661c6bae4d147b5b6f))
+
 ## [1.9.1](https://github.com/replydev/cotp/compare/v1.9.0...v1.9.1) (2024-09-12)
 
 
