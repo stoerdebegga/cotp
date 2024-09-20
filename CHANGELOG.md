@@ -1,16 +1,9 @@
-# [1.5.0](https://github.com/stoerdebegga/cotp/compare/v1.4.0...v1.5.0) (2024-09-09)
+## [1.9.1](https://github.com/replydev/cotp/compare/v1.9.0...v1.9.1) (2024-09-12)
 
 
-### Features
+### Bug Fixes
 
-* add --database-path argument ([9fafde3](https://github.com/stoerdebegga/cotp/commit/9fafde3769b6fe87f4fb8ed39439d86a074c173b))
-* add --database-path argument ([#485](https://github.com/stoerdebegga/cotp/issues/485)) ([e32600c](https://github.com/stoerdebegga/cotp/commit/e32600c5a693a8cfd4887c052bd2aace32c94c46))
-* use new argument to be able to set database path by commandline ([effd184](https://github.com/stoerdebegga/cotp/commit/effd1848295e43426c715c3f2cb3b275a6015d88))
-
-
-### Performance Improvements
-
-* resolve clippy lints ([565d452](https://github.com/stoerdebegga/cotp/commit/565d4520ede6a5d9053445380f6a8079e0419f6c))
+* prompt for save if user modifies the HOTP counter ([8568771](https://github.com/replydev/cotp/commit/8568771c91d5c45df2e68f661c6bae4d147b5b6f))
 
 # [1.9.0](https://github.com/replydev/cotp/compare/v1.8.0...v1.9.0) (2024-08-31)
 
