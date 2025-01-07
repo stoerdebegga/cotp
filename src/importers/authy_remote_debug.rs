@@ -43,7 +43,7 @@ impl AuthyExportedJsonElement {
             .and_then(|s| {
                 let mut args: Vec<&str> =
                     s.split('&').filter(|s| s.starts_with("digits=")).collect();
-                if args.first().is_some() {
+                if !args.is_empty() {
                     Some(args.swap_remove(0))
                 } else {
                     None
@@ -62,7 +62,7 @@ impl AuthyExportedJsonElement {
                 let issuer = args.first().unwrap_or(&default_value);
                 match urlencoding::decode(issuer) {
                     Ok(r) => r.into_owned(),
-                    Err(_e) => issuer.to_string(),
+                    Err(_e) => (*issuer).to_string(),
                 }
             }
             None => String::from(default_value),
@@ -91,6 +91,6 @@ impl From<AuthyExportedJsonElement> for OTPElement {
 
 impl From<AuthyExportedList> for Vec<OTPElement> {
     fn from(exported_list: AuthyExportedList) -> Self {
-        exported_list.0.into_iter().map(|e| e.into()).collect()
+        exported_list.0.into_iter().map(Into::into).collect()
     }
 }
